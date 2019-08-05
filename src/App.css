@@ -1,0 +1,93 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  padding:0
+}
+li{
+  display:inline;
+  text-decoration: none;  
+  margin: 1em
+}
+
+
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-clear {
+  border: none;
+  background: transparent;
+}
+
+
+.container {
+  max-width: 1200;
+  margin: 0 auto;
+  padding:50px
+}
+.space-around {
+  justify-content: space-around;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px 0;
+  width: 250px;
+  padding: 20px;
+}
+.dicons{
+  text-align: left
+}
+ .dicons svg {
+  margin-right: 11px;
+} 
